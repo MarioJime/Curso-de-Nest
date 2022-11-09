@@ -8,29 +8,11 @@ import { Car } from './interfaces/car.interface';
 export class CarsService {
 
     private cars: Car[] = [
-        {
-            id: uuid(),
-            brand: 'Nissan',
-            model:'Skyline',
-        },
-
-        {
-            id: uuid(),
-            brand: 'Toyota',
-            model:'Supra',
-        },
-
-        {
-            id: uuid(),
-            brand: 'Chevrolet',
-            model:'Camaro',
-        },
-
-        {
-            id: uuid(),
-            brand: 'Honda',
-            model:'Civic',
-        }   
+        // {
+        //     id: uuid(),
+        //     brand: 'Nissan',
+        //     model:'Skyline',
+        // },
     ];
 
     findAll() {
