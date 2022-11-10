@@ -80,7 +80,7 @@ export class CarsService {
 
     detele( id: string ){
         const car = this.findOneById( id );
-        this.cars = this.cars.filter( carr => car.id !== id );
+        this.cars = this.cars.filter( car => car.id !== id );
     }
 
     fillCarsWithSeedData( cars: Car[] ){
