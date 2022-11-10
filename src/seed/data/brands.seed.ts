@@ -5,28 +5,28 @@ export const BRANDS_SEED: Brand[] = [
 
     {
         id: uuid(),
-       name: 'Volvo',
-       createdAt: new Date().getTime(),
-       updatedAt: new Date().getTime(),
-    },
-
-    {
-        id: uuid(),
-        name: 'Jeep',
+        name: "Toyota",
         createdAt: new Date().getTime(),
         updatedAt: new Date().getTime(),
     },
 
     {
         id: uuid(),
-        name: 'Mustang',
+        name: "Honda",
         createdAt: new Date().getTime(),
         updatedAt: new Date().getTime(),
     },
 
     {
         id: uuid(),
-        name: 'Tesla',
+        name: "Dodge",
+        createdAt: new Date().getTime(),
+        updatedAt: new Date().getTime(),
+    },
+
+    {
+        id: uuid(),
+        name: "Ford",
         createdAt: new Date().getTime(),
         updatedAt: new Date().getTime(),
     }
